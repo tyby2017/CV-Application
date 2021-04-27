@@ -12,7 +12,7 @@ class EditedEducation extends Component {
                 <p>Diploma: {typeOfStudies}</p>
                 <p>Field of studies: {fieldOfStudies}</p>
                 <p>From: {dateFrom}</p>
-                <p>To: {dateTo}</p>
+                <p>Until: {dateTo}</p>
                 <button onClick = {this.props.handleClick}>Edit</button>
             </div>
         );

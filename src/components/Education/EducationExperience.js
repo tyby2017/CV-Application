@@ -59,7 +59,7 @@ class EducationExperience extends Component {
                 <label for='type-of-studies'>Diploma: <input id='type-of-studies' value={this.state.typeOfStudies} onChange={this.handleTypeOfStudies}></input></label>
                 <label for='field-of-studies'>Field of studies: <input id='field-of-studies' value={this.state.fieldOfStudies} onChange={this.handleFieldOfStudies}></input></label>
                 <label for='dateFrom'>From: <input type='date' id='dateFrom' value={this.state.dateFrom} onChange={this.handleDateFrom}></input></label>
-                <label for='dateTo'>To: <input type='date' id='dateTo' value={this.state.dateTo} onChange={this.handleDateTo}></input></label>
+                <label for='dateTo'>Until: <input type='date' id='dateTo' value={this.state.dateTo} onChange={this.handleDateTo}></input></label>
                 <button onClick = {this.handleSubmit}>Submit</button>
             </form>
         );

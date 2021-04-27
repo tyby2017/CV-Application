@@ -1,0 +1,59 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+:root {
+  --background-color: #AAB1BF;
+}
+
+body {
+  background-color:var(--background-color);
+  display:flex;
+  justify-content: center;
+}
+
+#root {
+  width:50%;
+}
+
+h2, h1 {
+  text-align:center;
+}
+
+h1 {
+  margin:20px;
+  border:1px solid black;
+  padding:10px;
+}
+
+form, #edited-info, #edited-education, #edited-experience {
+  border:1px solid black;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom:20px;
+  gap: 5px;
+  padding:10px;
+  
+}
+
+label {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  width:80%;
+}
+
+input, #main-tasks {
+  padding:2px;
+  border-radius: 2px;
+  border:none;
+  width:70%;
+}
+
+#main-tasks {
+  height: 100px;
+}
